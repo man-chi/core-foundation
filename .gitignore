@@ -1,0 +1,129 @@
+# .gitignore
+
+# ---------------
+#   IDE Files
+# ---------------
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---------------
+#   OS Files
+# ---------------
+
+.DS_Store
+Thumbs.db
+
+# ---------------
+#   Build Artifacts
+# ---------------
+
+/dist/
+/bin/
+/build/
+/target/
+*.o
+*.so
+*.exe
+*.class
+*.war
+*.phar
+*.dll
+*.TestResults
+*.log
+*.suo
+*.user
+*.userosscache
+*.appx
+*.intermediate
+*.ipa
+*.pkg
+*.vspscc
+*.vssscc
+.builds/
+.ipo
+.ipch/
+ReSharper*/
+_TestResult.xml
+
+
+#--------
+# Language Specific
+# --------
+# CSharp
+*.sln.cache
+*.suo
+*.nuget.props
+packages/
+*.nupkg
+*.nuspec
+.idea/
+.DotSettings.user
+dotCover/
+
+# Go
+*.exe
+*.test
+*.prof
+
+# Java
+/target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.native
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.native
+build/
+out/
+.gradle/
+.idea/
+
+# JavaScript
+node_modules/
+/bower_components/
+coverage/
+npm-debug.log
+yarn-error.log
+
+# TypeScript
+node_modules/
+/dist/
+/outDir/
+/lib.es5.d.ts
+/lib.es2015.d.ts
+/lib.es2016.d.ts
+/lib.es2017.d.ts
+/lib.es2020.d.ts
+/lib.esnext.d.ts
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+pycache/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+parts/
+var/
+sdist/
+*.bak
+*.swp
+*.swo
+*.tgz
+.venv
+ENV/
+env/
